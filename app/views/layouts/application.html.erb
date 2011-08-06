@@ -7,8 +7,38 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
-
-<%= yield %>
-
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="logo">
+        <h1><a href="index.html"><span>Hit Your Mind</span>Hard<br />
+          </a></h1>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="headert_text_resize"> <img src="/images/img_main.jpg" alt="" width="970" height="338" /> </div>
+    <div class="clr"></div>
+  </div>
+  <div class="body">
+    <div class="body_resize">
+      <div>
+        <%= yield %>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="FBG">
+    <div class="FBG_resize">
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">&copy; Copyright <a href="#">MyWebSite</a>.</p>
+      <p class="rf">Layout by Hot <a href="http://www.hotwebsitetemplates.net/">Website Templates</a></p>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+</div>
 </body>
 </html>
